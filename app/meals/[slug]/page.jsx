@@ -1,9 +1,9 @@
-const DynamicSlug = ({ params }) => {
+const MealDetailsPage = ({ param }) => {
   return (
     <main>
-      <p>{params.slug}</p>
+      <p>{param.slug}</p>
     </main>
   )
 }
 
-export default DynamicSlug
+export default MealDetailsPage

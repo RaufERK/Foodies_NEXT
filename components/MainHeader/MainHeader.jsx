@@ -1,5 +1,6 @@
 import LogoPic from '@/assets/logo.png'
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from './styles.module.css'
 
 const MainHeader = () => {
@@ -7,7 +8,13 @@ const MainHeader = () => {
   return (
     <header className={header}>
       <Link className={logo} href='/'>
-        <Image src={LogoPic.src} alt='Main logo' />
+        <Image
+          src={LogoPic.src}
+          alt='A plate with food on it'
+          width={1024}
+          height={1024}
+          priority
+        />
         NextLevel Food
       </Link>
       <nav className={nav}>
