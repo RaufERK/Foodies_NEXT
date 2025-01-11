@@ -2,7 +2,7 @@ import LogoPic from '@/assets/logo.png'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './styles.module.css'
-import HeaderBackground from '@/components/HeaderBackground'
+import HeaderBackground from '@/components/main-header-bg'
 
 const MainHeader = () => {
   const { logo, header, nav } = styles
